@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\blazor_wasm_learners_driver_test.props" />
+</Project>

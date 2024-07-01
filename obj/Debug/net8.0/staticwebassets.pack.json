@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\obj\\Debug\\net8.0\\compressed\\3fpz56mjn6.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\obj\\Debug\\net8.0\\scopedcss\\bundle\\blazor_wasm_learners_driver_test.styles.css",
+      "PackagePath": "staticwebassets\\blazor_wasm_learners_driver_test.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar\\source\\repos\\blazor_wasm_learners_driver_test\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.blazor_wasm_learners_driver_test.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.blazor_wasm_learners_driver_test.props",
+      "PackagePath": "build\\blazor_wasm_learners_driver_test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.blazor_wasm_learners_driver_test.props",
+      "PackagePath": "buildMultiTargeting\\blazor_wasm_learners_driver_test.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.blazor_wasm_learners_driver_test.props",
+      "PackagePath": "buildTransitive\\blazor_wasm_learners_driver_test.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

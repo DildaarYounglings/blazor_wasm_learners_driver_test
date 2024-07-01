@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dildaar/source/repos/blazor_wasm_learners_driver_test/Pages/DriversTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHJpdmVyc1Rlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dildaar/source/repos/blazor_wasm_learners_driver_test/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
