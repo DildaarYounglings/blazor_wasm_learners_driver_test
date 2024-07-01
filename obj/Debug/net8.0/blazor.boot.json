@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "blazor_wasm_learners_driver_test",
   "resources": {
-    "hash": "sha256-1RrONUDPI/WgBvvX8hx3DzWntSphxnRRj+prp80OlUk=",
+    "hash": "sha256-45ZOum8Xex8PJtCQPpcEAuQj4ACtyL45tv7G0fiaC0g=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.1k6zgb6rwn.js": "sha256-YU6M9+jtDVnB8/wtrgIndOstzNh778Ls8g9XnbjorSk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-masKveCdoRSahF99doEQk7H3YN2wHLVIE4M/Zu8OoD8=",
       "netstandard.wasm": "sha256-z1EJOmgVhSpTopn7Tek/0P//MKGF1I3NUD/sh4oLnwY=",
       "System.Private.CoreLib.wasm": "sha256-tuIWpR30u0OoEVtv4pXZ47mEpI2AmFBIyYFPnqDZZfw=",
-      "blazor_wasm_learners_driver_test.wasm": "sha256-vQHr6nJO+4slrl5zJgscyKJSgNsWjLbZOoe2GfHybVQ="
+      "blazor_wasm_learners_driver_test.wasm": "sha256-inEuD+gEXTfbmF82DcuHzBh68BfPmnJEwUZ6Td6XEIU="
     },
     "pdb": {
-      "blazor_wasm_learners_driver_test.pdb": "sha256-o8z3Sk3tDO1EZI9EfkkijYwmw+uf8UPLMB3mhw4IMkI="
+      "blazor_wasm_learners_driver_test.pdb": "sha256-Dj5JgjYh9M5WYU7M+qWxROtBfTPiUYOtpMEduNo9m4E="
     }
   },
   "cacheBootResources": true,

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blazor_wasm_learners_driver_test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9b0264273e9a01263721382cd45da6690145a70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+304ef7a13f18df5376a4c3d4c400b52f0203f2ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("blazor_wasm_learners_driver_test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blazor_wasm_learners_driver_test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,25 +1,59 @@
-@page "/DriversTest";
-@using System.Collections.Generic;
+@page "/DriversTest"
 
 <PageTitle>DriversTest</PageTitle>
 
 <h1>Counter</h1>
 
 <div>
-    <button>previous</button> <button>next</button>
+    <button @onclick="decrementPageNumber">previous</button><p>page @pageNumber</p><button @onclick="incrementPageNumber">next</button>
+    @foreach(var q_And_a_Item in displayedPage){
+        <div>
+            <p>@q_And_a_Item.question</p>
+            @foreach(var ans in q_And_a_Item.answers){
+                <p>@ans</p>
+            }
+        </div>
+    }
 </div>
 
 @code {
-    record Q_and_A_item(string question,List<string> answers);
-    public int currentCount = 0;
+    public record Q_and_A_item(string question,List<string> answers);
+    public static int currentCount = 0;
     public static int pageNumber = 1;
-    /*public static Dictionary<int,List<Q_and_A_item>> Q_and_A = new Dictionary<int,List<Q_and_A_item>>()
+    public static List<List<Q_and_A_item>> Q_and_A = getPageAllContents();
+    public static List<Q_and_A_item> displayedPage = DisplayPageContents();
+    
+    public static void incrementPageNumber()
     {
-        new List<Q_and_A_item>(){new("is batman real",new List<string>(){"true","false"})}
-    };
-    public List<Q_and_A_item> displayItems = get_List_of_Q_and_A(Q_and_A[pageNumber-1]);*/
-    static List<Q_and_A_item> get_List_of_Q_and_A(List<Q_and_A_item> s)
+       if(pageNumber == displayedPage.Count()+1){return;}else{pageNumber = pageNumber+1;displayedPage = DisplayPageContents();}
+    }
+    public static void decrementPageNumber()
     {
-        return s;
+        if(pageNumber == 0){return;}else{pageNumber= pageNumber-1;displayedPage = DisplayPageContents();}
+    }
+    public static List<Q_and_A_item> DisplayPageContents()
+    {
+        var d = Q_and_A[pageNumber-1];
+        return d;
+    }
+    public static List<List<Q_and_A_item>> getPageAllContents()
+    {
+        var d = new List<List<Q_and_A_item>>();
+        d.Add(
+            new List<Q_and_A_item>()
+            {
+               new Q_and_A_item(
+                "can you get a green lantern ring with the power of failure manipulatiion",
+                new(){"true","false"}
+               )
+            }
+        );
+        d.Add(
+            new List<Q_and_A_item>()
+            {
+                new("can you get a green lantern ring with the power of victory manipulatiion",new(){"true","false"})
+            }
+        );
+        return d;
     }
 }
